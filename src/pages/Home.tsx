@@ -12,7 +12,7 @@ import CallToAction from '../components/home/CallToAction';
 const Home = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = '023 Agency | Email & SMS Marketing Experts';
+    document.title = '023 Agency';
   }, []);
 
   return (
