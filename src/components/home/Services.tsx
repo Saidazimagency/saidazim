@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 import { BrainCog, TrendingUp, PieChart } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const servicesData = [
   {
@@ -116,13 +117,13 @@ const Services = () => {
         </motion.div>
       </div>
       <div className="flex justify-center mt-12">
-        <a
-          href="/booking"
-          className="inline-block bg-orange-600 text-black font-semibold px-8 py-3 rounded-full shadow-lg hover:bg-orange-700 transition"
-          aria-label="Book a Call"
-        >
-          Book a Call
-        </a>
+      <Link
+                to="/booking"
+                className="inline-block bg-orange-600 text-black font-semibold px-8 py-3 rounded-full shadow-lg hover:bg-orange-700 transition"
+                aria-label="Book a Call"
+              >
+                Book a Call
+              </Link>
       </div>
     </section>
   );

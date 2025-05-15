@@ -157,17 +157,6 @@ export default function Process() {
           ))}
         </AnimatePresence>
       </motion.div>
-
-      {/* Book a Call Button */}
-      <div className="flex justify-center mt-12">
-        <a
-          href="/booking"
-          className="inline-block bg-orange-600 text-black font-semibold px-8 py-3 rounded-full shadow-lg hover:bg-orange-700 transition"
-          aria-label="Book a Call"
-        >
-          Book a Call
-        </a>
-      </div>
     </section>
   );
 }
